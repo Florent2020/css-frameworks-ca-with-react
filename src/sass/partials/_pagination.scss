@@ -1,0 +1,31 @@
+
+.pagination {
+    margin: 40px 0;
+
+    &.pagination--second {
+        margin: 10px 0 100px;
+    }
+}
+
+.page-item.active .page-link {
+    color: white;
+    background-color: $colour-primary;
+    border-color: $colour-primary;
+}
+
+.page-link {
+    color: $colour-primary;
+    background-color: white;
+    border-color: $colour-primary;
+    height: 48px;
+    width: 54px;
+    text-align: center;
+    padding: 0.5rem;
+    line-height: 1.7;
+
+    &:hover {
+        background-color: lighten($colour-primary , 50);
+        border-color: lighten($colour-primary , 20);
+        color: $colour-font-header;
+    }
+}

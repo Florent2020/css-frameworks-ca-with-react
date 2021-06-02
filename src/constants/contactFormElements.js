@@ -1,0 +1,2 @@
+export const MINIMUM_FIRST_NAME_CHARACTERS = 3;
+export const MINIMUM_MESSAGE_VALUE = 5;

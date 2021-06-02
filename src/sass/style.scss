@@ -1,0 +1,26 @@
+$colour-primary: #e92569;
+$colour-secondary: #767676;
+$colour-body: radial-gradient(circle at center, #ffffff, #e5e5e5);
+$colour-bg-header: #efefef;
+$colour-font-header: #0a0a0a;
+$colour-footer-text: #8d8d8d;
+$colour-tab-shadow: #d1d1d1;
+$colour-bg-card: radial-gradient(circle at center, #ffffff, #f5f5f5);
+
+$body-font-family: "Lato", sans-serif;
+$heading-font-family: "Playfair Display", serif;
+
+$tablet-width: 992px;
+
+// MY TASK
+@import "~bootstrap/scss/bootstrap";
+@import "./partials/layout";
+@import "./partials/typography";
+@import "./partials/nav";
+@import "./partials/home";
+@import "./partials/forms";
+@import "./partials/tabs";
+@import "./partials/accordion";
+@import "./partials/pagination";
+@import "./partials/card";
+@import "./partials/contact";
