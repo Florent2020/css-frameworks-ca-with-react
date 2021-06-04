@@ -8,7 +8,7 @@ import InputGroup from "react-bootstrap/InputGroup";
 import Heading from "../layout/Heading";
 import Alert from "react-bootstrap/Alert";
 import ValidationError from "../forms/ValidationError";
-import { MINIMUM_FIRST_NAME_CHARACTERS, MINIMUM_MESSAGE_VALUE } from "../../constants/contactFormElements";
+import { MINIMUM_NAME_CHARACTERS, MINIMUM_MESSAGE_VALUE } from "../../constants/contactFormElements";
 
 
 const schema = yup.object().shape({
@@ -16,7 +16,7 @@ const schema = yup.object().shape({
     name: yup
         .string()
         .required("Please enter your first name!")
-        .min(MINIMUM_FIRST_NAME_CHARACTERS, `Your name must be at least ${MINIMUM_FIRST_NAME_CHARACTERS} characters!`),
+        .min(MINIMUM_NAME_CHARACTERS, `Your name must be at least ${MINIMUM_NAME_CHARACTERS} characters!`),
     email: yup
         .string()
         .required("Please enter an email address!")
